@@ -21,7 +21,6 @@ def red_white_masking(image):
 #    cv.imshow('masked_bgr',masked_bgr)
     return masked_bgr
 
-
 # filter to return denoised image and thinning yellow and white lines detected by red_white_masking()
 # so that edges can be detected as a single line not like rectangular strips
 def filtered(image):
